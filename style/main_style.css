@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-size:100% auto;
+}
+
+body {
+    background: #8c8589 !important; 
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.size-wrapper {
+    min-height: 100%;
+}
+
+.main {
+    overflow: auto;
+    padding-block: 100px;
+}
+
+.main-heading {
+    margin-top: 50px;
+    margin-left: 50px;  
+    font-size: 400%;
+}
+
+.size-wrapper {
+    background-image: url('') center center !important;
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.margin-landing-wines {
+    margin-top: 55vh ;
+}
+
+.header-font {
+    font-family: 'Amatic SC', cursive;
+}
+
+.thover {
+    font-size: 200%;
+    transition: background 1s, color 1s;
+    -webkit-transition: background 1s, color 1s;
+  }
+  
+  .ghover {
+    font-size: 200%;
+    transition: background 1s, color 1s;
+    -webkit-transition: background 1s, color 1s;
+  }
+  
+  .fhover {
+    font-size: 200%;
+    transition: background 1s, color 1s;
+    -webkit-transition: background 1s, color 1s;
+  }
+  
+  .thover:hover {
+    color: #1da1f2;
+    cursor: pointer;
+  }
+  
+  .ghover:hover {
+    color: #db4437;
+    cursor: pointer;
+  }
+  
+  .fhover:hover {
+    color: #3b5998;
+    cursor: pointer;
+  }
+
+  .landing-tagline-opacity {
+     background:  rgba(105, 11, 34, .5);
+  }
+
+ 
+
+  /*====================================LANDING-WINES=======================================*/
+
+  .hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+    }
+    
+    .hovereffect .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    -webkit-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out
+    }
+    
+    .hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+    }
+    
+    .hovereffect h2 {
+    text-transform:uppercase;
+    color:#fff;
+    text-align:center;
+    position:relative;
+    font-size:17px;
+    background:rgba(0,0,0,0.6);
+    -webkit-transform:translatey(-100px);
+    -ms-transform:translatey(-100px);
+    transform:translatey(-100px);
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    padding:10px;
+    }
+    
+    .hovereffect a.info {
+    text-decoration:none;
+    display:inline-block;
+    text-transform:uppercase;
+    color:#fff;
+    border:1px solid #fff;
+    background-color:transparent;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    margin:200px 0 0;
+    padding:7px 14px;
+    }
+    
+    .hovereffect a.info:hover {
+    box-shadow:0 0 5px #fff;
+    }
+    
+    .hovereffect:hover img {
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    }
+    
+    .hovereffect:hover .overlay {
+    opacity:1;
+    filter:alpha(opacity=100);
+    }
+    
+    .hovereffect:hover h2,.hovereffect:hover a.info {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -ms-transform:translatey(0);
+    -webkit-transform:translatey(0);
+    transform:translatey(0);
+    }
+    
+    .hovereffect:hover a.info {
+    -webkit-transition-delay:.2s;
+    transition-delay:.2s;
+    }
+
+ /*======================================PRODUCTS=======================================*/
+
+
+    .margin-products {
+      margin-top: 15vh; 
+    }
+    .card-products-back {
+      background-color: 	#c9c5c2;
+      border-radius: 20px;
+    }
+
+    .collapse-butt {
+      min-width: 100%;
+    
+    }
+
+    .card {
+      border-radius: 20px !important; 
+    }
+
+    .card-body {
+      background-color: 	#c9c5c2;
+      border-radius: 20px;
+      border-style: solid;
+      border-color: #8c8589;
+      border-width: 2px;
+      z-index: 100;
+    }
+
+    .card-products-back:hover {
+      border-radius: 40px;
+      background-color: 	#690b22;
+      text-color: white;
+      transition: 0.5s;
+    }
+
+    .products-card-img {
+      width: 40%;
+      margin: 0 auto;
+    }
+
+    .product-buy-butt {
+      background-color: #690b22 !important; 
+    }
+
+     /*======================================BUY=======================================*/
+
+     .form-wrapper {
+       background-color: #8c8589;
+       padding: 10px;
+       border-radius: 20px;
+       text-align: center;
+     }
+
+     .cart-wrapper {
+      background-color: #8c8589;
+      padding: 10px;
+      border-radius: 20px;
+     }
+
+     .cart-item {
+      border-radius: 40px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+     .submit-form-butt {
+      padding:5px 15px; 
+      background:#690b22; 
+      border:0 none;
+      cursor:pointer;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; 
+     }
+
+     .submit-form-butt:hover {
+      background:#c9c5c2; 
+     }
+
+     /*======================================NEWSLETTER=======================================*/
+
+     #talkbubble {
+      width: 240px;
+      height: 160px;
+      background: #690b22;
+      position: relative;
+      border-radius: 10px;
+    }
+    #talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 25px;
+      width: 0;
+      height: 0;
+      border-top: 23px solid transparent;
+      border-right: 40px solid #690b22;
+      border-bottom: 23px solid transparent;
+    }
+
+    .talkbubble {
+      margin: 0 auto;
+    }
+
+    .bubble-wrapper {
+      margin-top: 10%; 
+      padding-top: 10%;
+      padding-left: 5%; 
+    }
+
+    .newsletter-sign-container {
+      border-radius: 20px;
+      background-color: #8c8589;
+      min-height: 60vh;
+      min-width: 100%;
+      margin-bottom: 100px;
+    }
+
+    .bubble-text {
+      text-align: center;
+      padding-top: 20px; 
+    }
+
+    .signup-text {
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 130%;
+    }
+
+    .signup-logo {
+      display: none;
+    }
+
+    .signup-comeon {
+      padding: 10%;
+      padding-bottom: 30%; 
+      text-align: center;
+    }
+
+    .signup-form {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    @media only screen and (min-width: 850px) {
+      .talkbubble {
+        margin-left: 10%;
+      }
+
+      .bubble-wrapper {
+        margin-top: 10%; 
+        padding-top: 5%;
+      }
+
+      .signup-logo {
+        margin: 0 auto;
+        margin-top: 70px;
+        display: block;
+      }
+      
+    }
