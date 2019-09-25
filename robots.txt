@@ -1,0 +1,10 @@
+# Group1
+User-agent: Googlebot
+Disallow: /nogooglebot/
+Disallow: /database/
+Disallow: /scripts/
+
+# Group2
+User-agent: *
+Allow: /
+
